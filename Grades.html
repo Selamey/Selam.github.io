@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="GradesStyle.css" />
+    <title>Retrieve Grade</title>
+  </head>
+  <body>
+    <form action="https://mumstudents.org/params.php" method="get" target="_blank">
+      <div class="Header">
+        <h1>Retrieve Your Grade</h1>
+      </div>
+      <div class="Group1">
+        <label for="txtBoxStdName">Student Name: </label>
+        <br />
+        <input type="text" id="txtBoxStdName" name="txtBoxStdName" required />
+        <br />
+        <label for="txtBoxStdId">Student Id: </label>
+        <br />
+        <input type="text" id="txtBoxStdId" name="txtBoxStdId" required />
+        <br />
+        <br />
+        <label for="assignment">Assignment:</label>
+        <br />
+        <select id="assignment" name="assignment">
+          <option value="Lab00" selected>Create Your Homepage</option>
+          <option value="Lab01"> About Me webpage </option>
+          <option value="Lab02" >Recipe webpage Homework</option>
+          <option value="Lab03"> Movie Review webpage </option>
+          <option value="Lab04"> Grades Exercise</option>
+          <option value="Lab05"> Decorate My Text Lab</option>
+        </select>
+        <br />
+        <fieldset>
+          <legend>What is Your Entry?</legend>
+          <input type="checkbox" id="january" name="StudentEntry" value="January" />
+          <label for="january">January</label>
+          <input type="checkbox" id="may" name="StudentEntry" value="May" />
+          <label for="may">May</label>
+          <input type="checkbox" id="august" name="StudentEntry" value="August" />
+          <label for="august">August</label>
+          <input type="checkbox" id="november" name="StudentEntry" value="November" />
+          <label for="november">November</label>
+        </fieldset>
+      </div>
+      <br />
+      <div class="Confirmation">
+        <input type="checkbox" id="confirmCheckbox" name="ConfirmCheckbox" required />
+        <label for="confirmCheckbox">I admit that above information belongs to me</label>
+      </div>
+      <br />
+
+    <button type="submit" id="btnSubmit" class="BtnSubmit">
+        Submit
+    </button>
+    </form>
+  </body>
+</html>

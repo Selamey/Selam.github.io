@@ -1,0 +1,57 @@
+body ul{
+  list-style: none;
+}
+.HeaderImage {
+  width: 100%;
+}
+.MainFrame {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(190, 202, 202);
+  height: 600px;
+}
+.LeftFrame {
+  background-color: rgb(225, 226, 227);
+  width: 70%;
+  float: left;
+}
+.RightFrame{
+  background-color: rgb(226, 229, 231);
+  width: 30%;
+  float: right;
+}
+.box1 {
+  background-color: rgb(44, 108, 33);
+  width: 100%;
+  float: left;
+}
+
+.LeftContentBox{
+    background-color: rgb(225, 226, 227);
+    width: 39%;
+    height: fit-content;
+    float: left;
+    border: 1px solid gray;
+    background-color: burlywood;
+    margin-left: 1%;
+    font-family: monospace;
+    font-size: medium;
+    padding: 2%;
+    border-radius: 12px;
+    margin-top: 1%;
+    
+}
+.RightContentBox{
+    background-color: rgb(225, 226, 227);
+    width: 39%;
+    height: fit-content;
+    float: right;
+    border: 1px solid gray;
+    background-color: burlywood;
+    margin-right: 1%;
+    font-family: monospace;
+    font-size: medium;
+    padding: 2%;
+    border-radius: 12px;
+    margin-top: 1%;
+}

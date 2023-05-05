@@ -1,0 +1,91 @@
+body {
+    background-color: #F7E7CE;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+form {
+    background-color: #FFF2E6;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.Header {
+    background-color: #FF6F61;
+    color: #FFF2E6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 14px 0 10px 49px;
+    letter-spacing: 1px;
+}
+
+#btnSubmit {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    background-color: #FF6F61;
+    color: #FFF2E6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.Group1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+input[type=text] {
+    border: none;
+    margin-top: 10px;
+    border-bottom: 2px solid #FF6F61;
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+input:focus {
+    background-color: #FFE7D1;
+}
+
+select {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-color: #FF6F61;
+    width: 90%;
+    height: 40px;
+}
+
+fieldset {
+    font-size: 14px;
+    border-color: #FF6F61;
+    width: 90%;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+legend {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.Confiramtion {
+    margin-top: 30px;
+    margin-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}

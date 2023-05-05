@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        p:first-of-type::first-letter{
+            color: gold;
+            font-size: 200%;
+        }
+        p::selection{
+            color: blueviolet;
+        }
+        p::before{
+            content: "...";
+        }
+        .Boxes{
+            width: 50vw;
+            height: 30rem;
+            border: 5px solid red;
+
+        }
+        .box{
+            width: 8rem;
+            height: 8rem;
+
+        }
+        .box-one{
+            color: brown;
+        }
+        .box-two{
+            color: cornflowerblue;
+        }
+        .box-three{
+            color: green;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus accusamus ipsum est autem quas quibusdam iste dolor illo rem. Iure, commodi molestias recusandae sunt nemo reiciendis numquam aliquid deserunt quo.</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus accusamus ipsum est autem quas quibusdam iste dolor illo rem. Iure, commodi molestias recusandae sunt nemo reiciendis numquam aliquid deserunt quo.</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus accusamus ipsum est autem quas quibusdam iste dolor illo rem. Iure, commodi molestias recusandae sunt nemo reiciendis numquam aliquid deserunt quo.</p>
+
+<div class="Boxes">
+    <div class="box box-one"></div>
+    <div class="box box-two"></div>
+    <div class="box box-three" ></div>
+</div>
+
+</body>
+</html>
