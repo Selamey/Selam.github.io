@@ -9,17 +9,25 @@ const operations = {
 }
 
 const app = express();
+
 app.use(express.urlencoded({extended : true}));
+
+app.use('/',(req,res, next) => {
+    console.log('this is a a middleware');
+    next();
+}); 
+
 
 app.get('/', (req, res) => {
     console.log('/');
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
+
 app.post('/calc', (req, res) => {
     const body = req.body;
-    const first = parseInt(body.first); 
-    const second = parseInt(body.second); 
+    const first = parseInt(body.f); 
+    const second = parseInt(body.s); 
     const operation = body.operation;
     const result = operations[operation](first,second);
     console.log(result);
