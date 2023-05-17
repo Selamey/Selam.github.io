@@ -1,17 +1,5 @@
-var result=0;
-exports.add = function (req,res,vals) {
-    result=parseInt(vals.first)+parseInt(vals.second)
-};
-exports.subtract = function (req,res,vals) {
-    result=parseInt(vals.first)-parseInt(vals.second)
-};
-exports.multiply = function (req,res,vals) {
-    result=parseInt(vals.first)*parseInt(vals.second)
-};
-exports.division = function (req,res,vals) {
-    result=(parseInt(vals.first))/(parseInt(vals.second))
-};
-exports.displays=function(req,res,vals){
+
+exports.displays=function(req,res,val){
     res.writeHead(200, {'Content-Type': 'text/html'}); 
     res.write("<!DOCTYPE html>");
     res.write("<html>");
@@ -20,10 +8,10 @@ exports.displays=function(req,res,vals){
     res.write("</head>");
     res.write("<body>");
     res.write("<p style=\"background-color:orange\" ; style=\"font:14pt bold\";>The result is: ");
-          res.write(String(result));
+          res.write(String(val));
     res.write("</p>");
     res.write(
-        "<a href='https://amannegash.github.io/myFirstRepository.github.io/Simple%20Calculator%20Lab/'>Another calculation</a>"
+        "<a href='/'>Another calculation</a>"
       );
     res.write("</body>");
     res.write("</html>");
